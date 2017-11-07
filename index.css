@@ -1,0 +1,34 @@
+div.header {
+  margin: auto;
+  display: inline;
+  text-align: center;
+}
+div.teamname {
+  display: block;
+}
+ul.header {
+  padding:0;
+  font-size:0px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+ul.header li {
+  width:10vw;
+  border-bottom:0;
+  display: inline-block;
+  font-size:16px;
+  margin: auto;
+}
+
+ul.header li.selected {
+  width:10vw;
+  border-bottom:1px solid black;
+  display: inline-block;
+  font-size:16px;
+  margin: auto;
+}
+
+ul.header li a {
+  display: block;
+}
