@@ -1,34 +1,46 @@
 div.header {
+  display: inline-block;
   margin: auto;
-  display: inline;
   text-align: center;
+  height: 100vw;
+  width: 100vw;
 }
-div.teamname {
+
+#header[data-fixed] {
+  position: absolute;
+  width: 100vw;
+  top: 50px;
+}
+
+div.fixheader {
   display: block;
 }
-ul.header {
+ul.fixheader {
   padding:0;
   font-size:0px;
   text-align: center;
   vertical-align: middle;
 }
 
-ul.header li {
+ul.fixheader li {
   width:10vw;
   border-bottom:0;
   display: inline-block;
   font-size:16px;
-  margin: auto;
+  padding: 10,0;
 }
 
-ul.header li.selected {
+ul.fixheader li.selected {
   width:10vw;
   border-bottom:1px solid black;
   display: inline-block;
   font-size:16px;
-  margin: auto;
 }
 
-ul.header li a {
+ul.fixheader li a {
   display: block;
+}
+
+section.content {
+  height: 100vw;
 }
