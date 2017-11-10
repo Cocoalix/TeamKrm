@@ -1,3 +1,21 @@
+body {
+  background-color: #7B1FA2;
+  color: #FFF
+}
+
+a:link {
+  color: #FFF
+}
+a:visited {
+  color: #FFF
+}
+a:hover {
+  color: #FFF
+}
+a:active {
+  color: #FFF
+}
+
 div.header {
   display: inline-block;
   margin: auto;
@@ -32,7 +50,7 @@ ul.fixheader li {
 
 ul.fixheader li.selected {
   width:10vw;
-  border-bottom:1px solid black;
+  border-bottom:2px solid #FFF;
   display: inline-block;
   font-size:16px;
 }
